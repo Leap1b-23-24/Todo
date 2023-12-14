@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="./todo.css" />
+    <script src="./todo.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <input class="search" placeholder="...search" type="text" />
+        <div class="cards-container">
+          <div class="cards-outer">
+            <h1>
+              <p class="stat">in progress</p>
+              <span class="turn">0</span>
+            </h1>
+
+            <div class="cards"></div>
+            <button class="add-btn" type="button">
+              <span>+</span> Add task
+            </button>
+          </div>
+          <div class="cards-outer">
+            <h1>
+              <p class="stat">on hold</p>
+              <span class="turn">0</span>
+            </h1>
+
+            <div class="cards"></div>
+            <button class="add-btn" type="button">
+              <span>+</span> Add task
+            </button>
+          </div>
+          <div class="cards-outer">
+            <h1>
+              <p class="stat">completed</p>
+              <span class="turn">0</span>
+            </h1>
+
+            <div class="cards"></div>
+            <button class="add-btn" type="button">
+              <span>+</span> Add task
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="del"></div>
+
+      <div class="modal-outer">
+        <form class="modal-inner">
+          <h2>Add Task</h2>
+          <label class="title-class" for="title">
+            Title <input id="title" type="text"
+          /></label>
+          <label class="desc-class" for="description">
+            Description <textarea id="description"></textarea>
+          </label>
+          <p>Status</p>
+          <select name="" id="status-drop">
+            <option disabled selected value>Select an option</option>
+            <option value="in progress">in progress</option>
+            <option value="on hold">on hold</option>
+            <option value="completed">completed</option>
+          </select>
+          <p class="prior-text">Priority</p>
+          <select name="" id="priority-drop">
+            <option disabled selected value>Select an option</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="High">High</option>
+          </select>
+          <button class="submit-btn" type="submit">Add Task</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
