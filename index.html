@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./btn.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img id="background" alt="background" class="rain" src="" />
+      <div class="todo-apps">
+        <div class="todo-app">
+          <h2>To Do <span>📝</span></h2>
+          <div class="card">
+            <div class="boxes"></div>
+          </div>
+          <button class="btn1 btn-10"><span>+</span>Add Task</button>
+        </div>
+        <div class="todo-app">
+          <h2>In progress <span>⏱️</span></h2>
+          <div class="card">
+            <div class="boxes"></div>
+          </div>
+          <button class="btn1 btn-10"><span>+</span>Add Task</button>
+        </div>
+        <div class="todo-app">
+          <h2>Stuck<span>🚧</span></h2>
+          <div class="card">
+            <div class="boxes"></div>
+          </div>
+          <button class="btn1 btn-10"><span>+</span> Add Task</button>
+        </div>
+        <div class="todo-app">
+          <h2>Done<span>☑️</span></h2>
+          <div class="card">
+            <div class="boxes"></div>
+          </div>
+          <button class="btn1 btn-10"><span>+</span> Add Task</button>
+        </div>
+      </div>
+
+      <div class="hidden">
+        <form>
+          <h3>Add Task</h3>
+          <button class="exit-btn">✖</button>
+          <label for="Title" class="title">Title</label>
+          <input type="text" id="title" />
+          <label for="Description" class="description">Description</label>
+          <input type="text" id="description" />
+          <select name="status" id="select1">
+            <option value="0"></option>
+            <option value="1">To Do</option>
+            <option value="2">In progress</option>
+            <option value="3">Stuck</option>
+            <option value="4">Done</option>
+          </select>
+          <select name="priority" id="select2">
+            <option valur="0"></option>
+            <option value="1">Low</option>
+            <option value="2">Medium</option>
+            <option value="3">High</option>
+          </select>
+          <button id="btn2" class="btn-7" type="submit">
+            <span>submit</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./rainyday.js"></script>
+    <script>
+      function rain() {
+        const image = document.getElementById("background");
+        image.onload = function () {
+          var rainyDay = new RainyDay({
+            image: this,
+          });
+          RainyDay.rain([[5, 2, 2]], 0);
+        };
+        image.src = "cat.jpg";
+      }
+      rain();
+    </script>
+  </body>
+</html>
