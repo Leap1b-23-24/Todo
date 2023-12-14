@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="modal">
+            <div class="modal-content">
+                <form id="modal-form">
+                    <p>Add Task</p>
+                    <p>Title</p>
+                    <input type="text" name="title">
+                    <p>Description</p>
+                    <textarea name="formDiscription" id="discription-textarea" cols="20" rows="5"></textarea>
+                    <p>Status</p>
+                    <select name="formStatus" id="form-status">
+                        <option>To do</option>
+                        <option>In progress</option>
+                        <option>Stuck</option>
+                        <option>Done</option>
+                    </select>
+                    <p>Priority</p>
+                    <select name="formPriority" id="form-priority">
+                        <option >Low</option>
+                        <option >Medium</option>
+                        <option >High</option>
+                    </select>
+                    <button type="submit" value="Add-Task" id="form-submit">Add task</button>
+                </form>
+            </div>
+        </div>
+        <div class="to-do">
+            <h2>To Do</h2>
+            <div class="to-do-list">
+                <div class="to-do-list-items">
+                    <p>To Do</p>
+                    <p>Ymarch baisan hiine dee</p>
+                    <span>High</span>
+                </div>
+            </div>
+            <button class="add-card">Add Card</button>
+        </div>
+        <div class="in-progress">
+            <h2>In progress</h2>
+            <div class="to-do-list">
+                <div class="to-do-list-items">
+                    <p>To Do</p>
+                    <p>Ymarch baisan hiine dee</p>
+                    <span>High</span>
+                </div>
+            </div>
+            <button class="add-card">Add Card</button>
+        </div>
+        <div class="stuck">
+            <h2>Stuck</h2>
+            <div class="to-do-list">
+                <div class="to-do-list-items">
+                    <p>To Do</p>
+                    <p>Ymarch baisan hiine dee</p>
+                    <span>High</span>
+                </div>
+            </div>
+            <button class="add-card">Add Card</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
