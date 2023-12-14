@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./todo.css">
+</head>
+
+<body>
+    <div class="background">
+        <img class="imager" src=".//Thinking about becoming a smart city.jpeg" alt="">
+        <div class="management">
+            <div class="todo">
+                <div class="texts">
+                    <p><b>To do</b></p>
+
+                </div>
+                <div class="cards">
+                </div>
+                <div class="add-task">
+                    <button class="nemeh">+ Add task</button>
+                </div>
+            </div>
+            <div class="todo">
+                <div class="texts">
+                    <p><b>In progress</b></p>
+
+                </div>
+                <div class="cards">
+                </div>
+                <div class="add-task">
+                    <button class="nemeh">+ Add task</button>
+                </div>
+            </div>
+            <div class="todo">
+                <div class="texts">
+                    <p><b>Stuck</b></p>
+
+                </div>
+                <div class="cards">
+                </div>
+                <div class="add-task">
+                    <button class="nemeh">+ Add task</button>
+                </div>
+            </div>
+            <div class="todo">
+                <div class="texts">
+                    <p><b>Done</b></p>
+
+                </div>
+                <div class="cards">
+                </div>
+                <div class="add-task">
+                    <button class="nemeh">+ Add task</button>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+        <div class="modal">
+            <h1>Add Task</h1>
+            <form action="">
+                <label for="title"> Title</label> <br>
+                <input type="text" id="title" name="title"> <br><br>
+                <label for="descrip">Description</label><br>
+                <textarea name="descrip" id="descrip" cols="30" rows="5"></textarea><br><br>
+
+                <label for="status">Status</label><br>
+                <select name="status" id="status">
+                    <option value=""></option>
+                    <option value="To do">To do</option>
+                    <option value="In progress">In progress</option>
+                    <option value="Stuck">Stuck</option>
+                    <option value="Done">Done</option>
+                </select><br><br>
+
+                <label for="prior">Priority</label><br>
+                <select name="prior" id="prior">
+                    <option value=""></option>
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select><br><br>
+
+                <button type="submit" class="addtask">AddTask</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="./shine.js"></script>
+</body>
+
+</html>

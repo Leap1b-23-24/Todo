@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+
+}
+
+.imager {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.management {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+}
+
+.todo {
+    background-color: rgb(229, 238, 238);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    color: black;
+    border-radius: 6px;
+    width: 200px;
+    height: fit-content;
+}
+.inprogress {
+    background-color: rgb(229, 238, 238);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    color: black;
+    border-radius: 6px;
+    width: 200px;
+    height: fit-content;
+}
+.stuck {
+    background-color: rgb(229, 238, 238);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    color: black;
+    border-radius: 6px;
+    width: 200px;
+    height: fit-content;
+}
+.done {
+    background-color: rgb(229, 238, 238);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    color: black;
+    border-radius: 6px;
+    width: 200px;
+    height: fit-content;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 6px;
+}
+
+.card p:nth-child(1){
+    font-size: 14px;
+    font-family: Impact,  'Bold';
+}
+.card p{
+    font-size: 14px;
+}
+
+.text-input {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.nemeh {
+    border: none;
+    background: none;
+
+}
+
+.modal {
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    border-radius: 6px;
+    padding: 30px;
+    display: none;
+    position: absolute;
+
+}
+
+#title {
+    width: 100%;
+}
+
+#descrip {
+    width: 100%;
+
+}
+
+#status {
+    width: 100%;
+}
+
+#prior {
+    width: 100%; 
+    /* ened widthee herhen bairulahguu ve */
+}
+
+.addtask {
+    width: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    height: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.priorit{
+    
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 3px;
+    font-size: 12px;
+    padding: 3px;
+    width: fit-content;
+  /* widthee yah ve */
+    
+}
+.stats{
+    font-size: 14px;
+    font-family: bold;
+
+}
+.bigcont{
+    display: flex;
+    background-color: white;
+    justify-content: left;
+
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+.delete{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+    font: 12px;
+    width: 17px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+.check{
+    border-right: 1px solid rgba(103, 103, 103, 0.728);
+    padding: 10px;
+}
+.check img{
+    width: 25px;
+}
+
+
