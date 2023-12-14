@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="header">
+                <h1 class="box-h1">To do</h1><span class="count"></span>
+                <div class="boxes">
+                    <div class="box0 box" id="zero"></div>
+                </div>
+                <button class="plus">+ Add card</button>
+            </div>
+            <div class="header">
+                <h1 class="box-h1">In Progress</h1><span class="count"></span>
+                <div class="boxes">
+                    <div class="box1 box" id="one"></div>
+                </div>
+                <button class="plus">+ Add card</button>
+            </div>
+            <div class="header">
+                <h1 class="box-h1">Stuck</h1><span class="count"></span>
+                <div class="boxes">
+                    <div class="box2 box" id="two"></div>
+                </div>
+                <button class="plus">+ Add card</button>
+            </div>
+            <div class="header">
+                <h1 class="box-h1">Done</h1><span class="count"></span>
+                <div class="boxes">
+                    <div class="box3 box" id="three"></div>
+                </div>
+                <button class="plus">+ Add card</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="task">
+                <h1>Add Task</h1>
+                <div class="combined">
+                    <h2>Title</h2>
+                    <input id="test" type="text">
+
+                    <p>Description</p>
+                    <textarea name="data" id="data" cols="30" rows="10"></textarea>
+
+                    <h2>Status</h2>
+                    <select name="hi" id="hi">
+                        <option disabled select value>None</option>
+                        <option value="To do">To do</option>
+                        <option value="In Progress">In Progress</option>
+                        <option value="Stuck">Stuck</option>
+                        <option value="Done">Done</option>
+                    </select>
+
+                    <h2>Priority</h2>
+                    <select id="cars">
+                        <option disabled select value>None</option>
+                        <option value="High">High</option>
+                        <option value="Mid">Mid</option>
+                        <option value="Low">Low</option>
+                    </select>
+
+                    <button id="bttn" input type="submit">Add card</button>
+                </div>
+            </form>
+
+        </div>
+        <script src="./script.js"></script>
+</body>
+
+</html>
