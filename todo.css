@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.parent {
+    display: flex;
+}
+
+.loan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.call {
+    position: relative;
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+}
+
+.call img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.captain {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 60px;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    width: 330px;
+    border-radius: 8px;
+    border: solid 1px black;
+    margin-top: 120px;
+    position: relative;
+}
+
+.ungu {
+    border: solid 1px #000;
+    border-radius: 30px;
+    width: 23px;
+    height: 23px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.second {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    margin-left: 3px;
+}
+
+.second2 {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    margin-left: 3px;
+}
+
+.sav {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.size {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.zurag {
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    border: solid 1px black;
+    border-radius: 15px;
+    margin: 15px 0px 0px 15px;
+    padding: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 300px;
+    height: fit-content;
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color {
+    display: flex;
+    width: 100%;
+}
+
+.number {
+    padding: 8px;
+    margin: 10px 10px 0px 0px;
+    border: solid 1px #000;
+
+}
+
+.cardTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardDelete {
+    padding: 6px;
+    margin: 9px 8px 0px 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.cardName {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px 0px 18px;
+}
+
+.cardDesc {
+    padding: 5px;
+    margin: 0px 0px 0px 57px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.cardTag {
+    padding: 5px;
+    width: 80px;
+    height: 28px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px 0px 15px 60px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: solid 1px black;
+    background-color: #fff;
+}
+
+.third {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.one {
+    margin-right: 210px;
+}
+
+.none {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.num {
+    border: 1px solid #000;
+    height: 30px;
+    width: 340px;
+    border-radius: 5px;
+}
+
+.num2 {
+    border: 1px solid #000;
+    height: 100px;
+    width: 340px;
+    border-radius: 5px;
+}
+
+.beginReact {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 1;
+}
+
+.car {
+    width: 340px;
+    height: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #000;
+    width: 330px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    margin-bottom: 198px;
+}
+
+.logo {
+    padding: 15px;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.main1 {
+    display: flex;
+    gap: 15px;
+}
+
+.neg {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.two {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.hoyr {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.kahoot {
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.too {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+
+.meg {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+
+#search {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+    background-color: beige;
+}
