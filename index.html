@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="search">
+      <label for="search"></label>
+      <input type="search" id="search" />
+      <div class="searchResult"></div>
+    </div>
+    <div class="container">
+      <div class="todo">
+        <p>To-Do lists</p>
+        <p class="Todocount"></p>
+        <div id="Todo" class="box"></div>
+        <button class="add">
+          <p>Add</p>
+        </button>
+      </div>
+      <div class="stuck">
+        <p>Stuck</p>
+        <p class="Stuckcount"></p>
+        <div id="Stuck" class="box"></div>
+      </div>
+      <div class="doing">
+        <p>Doing</p>
+        <p class="Doingcount"></p>
+        <div class="box" id="Doing"></div>
+      </div>
+      <div class="done">
+        <p>Done</p>
+        <p class="Donecount"></p>
+        <div class="box" id="Done"></div>
+      </div>
+    </div>
+    <div class="list">
+      <form class="listForm" name="listForm">
+        <div class="name">
+          <p>Title</p>
+          <input type="text" id="name" placeholder="Text" />
+        </div>
+        <div class="description">
+          <p>Description</p>
+          <input type="text" id="description" placeholder="description" />
+        </div>
+        <div class="gategory">
+          <p>Gategory</p>
+          <select name="gategory" id="gategory">
+            <option class="option" value="Todo">Todo</option>
+            <option class="option" value="Doing">Doing</option>
+            <option class="option" value="Stuck">Stuck</option>
+            <option class="option" value="Done">Done</option>
+          </select>
+        </div>
+        <div class="progress">
+          <p>Priority</p>
+          <select name="prio" id="progress">
+            <option value="High">high</option>
+            <option value="Mid">mid</option>
+            <option value="Low">low</option>
+          </select>
+        </div>
+        <div class="submit">
+          <input type="submit" id="submit" />
+        </div>
+      </form>
+    </div>
+    <script src="index1.js"></script>
+  </body>
+</html>
