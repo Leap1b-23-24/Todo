@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="secsion">
+        <img src="backround.jpeg" alt="" />
+        <input
+          class="search"
+          id="search"
+          type="text"
+          name="search"
+          placeholder="search..."
+        />
+        <div class="todo_secsion">
+          <div class="todo">
+            <h1>Todo</h1>
+            <div class="todoCard"></div>
+            <div class="todo2">
+              <i class="fa-solid fa-plus"></i>
+              <p>Add card</p>
+            </div>
+          </div>
+          <div class="todo">
+            <h1>In progress</h1>
+            <div class="todoCard"></div>
+            <div class="todo2">
+              <i class="fa-solid fa-plus"></i>
+              <p>Add card</p>
+            </div>
+          </div>
+          <div class="todo">
+            <h1>Stuck</h1>
+            <div class="todoCard"></div>
+            <div class="todo2">
+              <i class="fa-solid fa-plus"></i>
+              <p>Add card</p>
+            </div>
+          </div>
+          <div class="todo">
+            <h1>Done</h1>
+            <div class="todoCard"></div>
+            <div class="todo2">
+              <i class="fa-solid fa-plus"></i>
+              <p>Add card</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="addtask2">
+        <div class="addtask">
+          <form>
+            <h2>Add task</h2>
+            <p>Title</p>
+            <input class="put" type="text" name="Title" required />
+            <p>Description</p>
+            <textarea
+              class="put"
+              name="Description"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <p>Status</p>
+            <select class="put1" name="Status">
+              <option value=""></option>
+              <option value="Todo">Todo</option>
+              <option value="In progress">In progress</option>
+              <option value="Stuck">Stuck</option>
+              <option value="Done">Done</option>
+            </select>
+            <p>Priority</p>
+            <select class="put" name="Priority" id="cars">
+              <option value=""></option>
+              <option value="3">Low</option>
+              <option value="2">Medium</option>
+              <option value="1">High</option>
+            </select>
+            <button type="submit">Add task</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./todo.js"></script>
+  </body>
+</html>
